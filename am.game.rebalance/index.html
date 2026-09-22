@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Rebalance — Политика конфиденциальности / Privacy Policy</title>
+<title>Rebalance — Privacy Policy · Политика конфиденциальности · Datenschutz · Privacidad · Confidentialité · Privacidade</title>
 <meta name="description" content="Политика конфиденциальности игры Rebalance (am.game.rebalance) — словесной головоломки на весах.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
   h3{font-size:1.05rem;margin:1.6rem 0 .3rem;color:var(--brass)}
   .meta{color:var(--muted);font-size:.9rem;letter-spacing:.06em;text-transform:uppercase}
   .meta.date{text-transform:none;letter-spacing:0}
-  .lang{display:flex;gap:8px;margin:18px 0}
+  .lang{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
   .lang a{padding:7px 16px;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--fg);font-weight:700}
   .lang a.on{background:var(--brass);color:#2B2622;border-color:var(--brass)}
   table{border-collapse:collapse;width:100%;font-size:.95rem;background:var(--card);border-radius:16px;overflow:hidden}
@@ -36,70 +36,9 @@
 <svg class="beam" viewBox="0 0 120 44" fill="none" stroke="#B8863B" stroke-width="3" stroke-linecap="round" aria-hidden="true"><line x1="10" y1="12" x2="110" y2="12"/><line x1="60" y1="12" x2="60" y2="38"/><line x1="44" y1="38" x2="76" y2="38"/><circle cx="60" cy="12" r="4" fill="#B8863B"/><path d="M14 12v12M30 12v12M12 24h20v6h-20z"/><path d="M90 12v12M106 12v12M88 24h20v6h-20z"/></svg>
 <p class="meta">am.game.rebalance · Android / iOS</p>
 <h1>Rebalance</h1>
-<div class="lang"><a href="#ru" id="tab-ru" class="on">Русский</a><a href="#en" id="tab-en">English</a></div>
+<div class="lang"><a href="#en" id="tab-en" class="on">English</a><a href="#ru" id="tab-ru">Русский</a><a href="#de" id="tab-de">Deutsch</a><a href="#es" id="tab-es">Español</a><a href="#fr" id="tab-fr">Français</a><a href="#pt" id="tab-pt">Português</a></div>
 
-<!-- ======================= RU ======================= -->
-<section id="ru">
-<h2 style="border:0;padding-top:0">Политика конфиденциальности</h2>
-<p class="meta date">Последнее обновление: 23 сентября 2026 г.</p>
-
-<div class="card">
-<strong>Коротко.</strong> Rebalance — бесплатная словесная головоломка, поддерживаемая рекламой. Регистрация не нужна. Прогресс хранится на вашем устройстве; при наличии сети он резервно копируется в Firebase под анонимным идентификатором. В таблицы рекордов попадают только выбранное вами имя и счёт. Рекламу показывают Google AdMob или Реклама Яндекса (в зависимости от страны), и они могут использовать рекламные идентификаторы устройства в соответствии со своими политиками. Мы не продаём данные и не запрашиваем доступ к контактам, камере, микрофону или геолокации.
-</div>
-
-<h3>1. Кто обрабатывает данные</h3>
-<p>Разработчик и оператор данных — Роберт Тадевосян (индивидуальный разработчик), связь: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Приложение доступно в Google Play и App Store под идентификатором <code>am.game.rebalance</code>.</p>
-
-<h3>2. Какие данные использует приложение и где они хранятся</h3>
-<table>
-<tr><th>Данные</th><th>Зачем</th><th>Где хранятся</th></tr>
-<tr><td>Прогресс игры: пройденные уровни, звёзды, лучшие результаты, серии Daily, монеты, купленные оформления, настройки</td><td>Работа игры</td><td>На устройстве (локальная база Hive). Копия — в Firebase Realtime Database под анонимным идентификатором, чтобы восстановить прогресс на новом устройстве</td></tr>
-<tr><td>Анонимный идентификатор пользователя (Firebase Authentication)</td><td>Отличать ваш прогресс и рекорды от чужих без регистрации</td><td>Firebase (Google)</td></tr>
-<tr><td>Имя для таблицы рекордов (вы вводите его сами, до 20 символов) и счёт</td><td>Глобальные таблицы рекордов режимов Tower и Daily</td><td>Firebase Realtime Database; видно другим игрокам</td></tr>
-<tr><td>Обезличенная статистика использования: запуск уровня, прохождение, счёт Tower, просмотр рекламы за награду, модель устройства, версия ОС и приложения</td><td>Понимать, какие уровни слишком сложны, и улучшать игру</td><td>Firebase Analytics (Google)</td></tr>
-<tr><td>Отчёты о сбоях: стек вызовов, модель устройства, версия ОС, состояние приложения в момент сбоя</td><td>Исправление ошибок</td><td>Firebase Crashlytics (Google)</td></tr>
-<tr><td>Рекламный идентификатор устройства (GAID / IDFA — только с вашего согласия на iOS), IP‑адрес, примерная страна, данные о показах и кликах</td><td>Показ и учёт рекламы</td><td>Google AdMob или Реклама Яндекса (см. п. 3)</td></tr>
-<tr><td>Страна SIM‑карты / сети</td><td>Выбор рекламной сети (Яндекс в РФ и ряде стран СНГ, иначе AdMob)</td><td>Только на устройстве, не передаётся</td></tr>
-<tr><td>Дополнительные языковые пакеты</td><td>Загружаются по вашему запросу из статического хранилища; при этом серверу виден IP‑адрес</td><td>На устройстве</td></tr>
-</table>
-<p>Приложение не требует и не собирает имя, адрес электронной почты, номер телефона, контакты, фотографии, точную геолокацию или платёжные данные. Покупок в приложении нет.</p>
-
-<h3>3. Кому передаются данные</h3>
-<ul>
-<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong> — резервное копирование прогресса, таблицы рекордов, статистика и отчёты о сбоях. <a href="https://firebase.google.com/support/privacy">Политика Firebase</a>.</li>
-<li><strong>Google AdMob</strong> (за пределами региона Яндекса) — показ рекламы. Перед инициализацией запрашивается согласие через Google UMP (в ЕЭЗ/Великобритании) и разрешение на отслеживание (iOS). <a href="https://policies.google.com/technologies/ads">Как Google использует данные в рекламе</a>.</li>
-<li><strong>Реклама Яндекса</strong> (Россия, Беларусь, Казахстан, Узбекистан, Киргизия, Таджикистан, Армения, Азербайджан, Грузия, Молдова, Туркменистан) — показ рекламы. <a href="https://yandex.ru/legal/confidential/">Политика Яндекса</a>.</li>
-</ul>
-<p>Мы не продаём и не передаём персональные данные другим третьим лицам. Данные могут обрабатываться на серверах за пределами вашей страны (в том числе в США и ЕС) в соответствии с политиками указанных поставщиков.</p>
-
-<h3>4. Разрешения и функции устройства</h3>
-<ul>
-<li><strong>Интернет</strong> — реклама, резервное копирование прогресса, таблицы рекордов, загрузка языковых пакетов. Игра полностью играбельна без сети.</li>
-<li><strong>Разрешение на отслеживание (iOS App Tracking Transparency)</strong> — запрашивается один раз перед загрузкой рекламы; при отказе показывается неперсонализированная реклама.</li>
-<li>Камера, микрофон, контакты, геолокация — <strong>не используются</strong>.</li>
-</ul>
-
-<h3>5. Сроки хранения и удаление</h3>
-<p>Локальные данные удаляются при удалении приложения. Резервная копия прогресса и записи в таблицах рекордов хранятся до удаления по вашему запросу: напишите на <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>, и мы удалим данные, связанные с вашим анонимным идентификатором, в течение 30 дней. Данные Analytics хранятся Google до 14 месяцев, отчёты о сбоях — 90 дней.</p>
-
-<h3>6. Безопасность</h3>
-<p>Обмен данными идёт по HTTPS. Доступ к Firebase ограничен правилами безопасности: каждый пользователь может записывать только свой прогресс и свои рекорды.</p>
-
-<h3>7. Дети</h3>
-<p>Игра подходит для всех возрастов, но не предназначена специально для детей младше 13 лет и не собирает от них сознательно персональные данные. Родители могут написать нам для удаления данных.</p>
-
-<h3>8. Ваши права</h3>
-<p>Вы можете в любой момент удалить приложение (локальные данные), изменить имя в таблице рекордов в настройках, отозвать согласие на персонализированную рекламу в настройках устройства и запросить удаление облачных данных по электронной почте. Жители ЕЭЗ, Великобритании, Бразилии и Калифорнии имеют право на доступ, исправление, удаление и переносимость данных — обращайтесь по адресу ниже.</p>
-
-<h3>9. Изменения политики</h3>
-<p>При изменении практик обработки данных мы обновим эту страницу и дату «Последнее обновление». Существенные изменения будут указаны в описании обновления в магазине.</p>
-
-<h3>10. Контакты</h3>
-<p>Вопросы по политике: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Исходный код: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
-</section>
-
-<!-- ======================= EN ======================= -->
-<section id="en" hidden>
+<section id="en">
 <h2 style="border:0;padding-top:0">Privacy Policy</h2>
 <p class="meta date">Last updated: 23 September 2026</p>
 
@@ -158,14 +97,313 @@
 <p>Questions about this policy: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Source code: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
 </section>
 
+<section id="ru" hidden>
+<h2 style="border:0;padding-top:0">Политика конфиденциальности</h2>
+<p class="meta date">Последнее обновление: 23 сентября 2026 г.</p>
 
+<div class="card">
+<strong>Коротко.</strong> Rebalance — бесплатная словесная головоломка, поддерживаемая рекламой. Регистрация не нужна. Прогресс хранится на вашем устройстве; при наличии сети он резервно копируется в Firebase под анонимным идентификатором. В таблицы рекордов попадают только выбранное вами имя и счёт. Рекламу показывают Google AdMob или Реклама Яндекса (в зависимости от страны), и они могут использовать рекламные идентификаторы устройства в соответствии со своими политиками. Мы не продаём данные и не запрашиваем доступ к контактам, камере, микрофону или геолокации.
+</div>
+
+<h3>1. Кто обрабатывает данные</h3>
+<p>Разработчик и оператор данных — Роберт Тадевосян (индивидуальный разработчик), связь: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Приложение доступно в Google Play и App Store под идентификатором <code>am.game.rebalance</code>.</p>
+
+<h3>2. Какие данные использует приложение и где они хранятся</h3>
+<table>
+<tr><th>Данные</th><th>Зачем</th><th>Где хранятся</th></tr>
+<tr><td>Прогресс игры: пройденные уровни, звёзды, лучшие результаты, серии Daily, монеты, купленные оформления, настройки</td><td>Работа игры</td><td>На устройстве (локальная база Hive). Копия — в Firebase Realtime Database под анонимным идентификатором, чтобы восстановить прогресс на новом устройстве</td></tr>
+<tr><td>Анонимный идентификатор пользователя (Firebase Authentication)</td><td>Отличать ваш прогресс и рекорды от чужих без регистрации</td><td>Firebase (Google)</td></tr>
+<tr><td>Имя для таблицы рекордов (вы вводите его сами, до 20 символов) и счёт</td><td>Глобальные таблицы рекордов режимов Tower и Daily</td><td>Firebase Realtime Database; видно другим игрокам</td></tr>
+<tr><td>Обезличенная статистика использования: запуск уровня, прохождение, счёт Tower, просмотр рекламы за награду, модель устройства, версия ОС и приложения</td><td>Понимать, какие уровни слишком сложны, и улучшать игру</td><td>Firebase Analytics (Google)</td></tr>
+<tr><td>Отчёты о сбоях: стек вызовов, модель устройства, версия ОС, состояние приложения в момент сбоя</td><td>Исправление ошибок</td><td>Firebase Crashlytics (Google)</td></tr>
+<tr><td>Рекламный идентификатор устройства (GAID / IDFA — только с вашего согласия на iOS), IP‑адрес, примерная страна, данные о показах и кликах</td><td>Показ и учёт рекламы</td><td>Google AdMob или Реклама Яндекса (см. п. 3)</td></tr>
+<tr><td>Страна SIM‑карты / сети</td><td>Выбор рекламной сети (Яндекс в РФ и ряде стран СНГ, иначе AdMob)</td><td>Только на устройстве, не передаётся</td></tr>
+<tr><td>Дополнительные языковые пакеты</td><td>Загружаются по вашему запросу из статического хранилища; при этом серверу виден IP‑адрес</td><td>На устройстве</td></tr>
+</table>
+<p>Приложение не требует и не собирает имя, адрес электронной почты, номер телефона, контакты, фотографии, точную геолокацию или платёжные данные. Покупок в приложении нет.</p>
+
+<h3>3. Кому передаются данные</h3>
+<ul>
+<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong> — резервное копирование прогресса, таблицы рекордов, статистика и отчёты о сбоях. <a href="https://firebase.google.com/support/privacy">Политика Firebase</a>.</li>
+<li><strong>Google AdMob</strong> (за пределами региона Яндекса) — показ рекламы. Перед инициализацией запрашивается согласие через Google UMP (в ЕЭЗ/Великобритании) и разрешение на отслеживание (iOS). <a href="https://policies.google.com/technologies/ads">Как Google использует данные в рекламе</a>.</li>
+<li><strong>Реклама Яндекса</strong> (Россия, Беларусь, Казахстан, Узбекистан, Киргизия, Таджикистан, Армения, Азербайджан, Грузия, Молдова, Туркменистан) — показ рекламы. <a href="https://yandex.ru/legal/confidential/">Политика Яндекса</a>.</li>
+</ul>
+<p>Мы не продаём и не передаём персональные данные другим третьим лицам. Данные могут обрабатываться на серверах за пределами вашей страны (в том числе в США и ЕС) в соответствии с политиками указанных поставщиков.</p>
+
+<h3>4. Разрешения и функции устройства</h3>
+<ul>
+<li><strong>Интернет</strong> — реклама, резервное копирование прогресса, таблицы рекордов, загрузка языковых пакетов. Игра полностью играбельна без сети.</li>
+<li><strong>Разрешение на отслеживание (iOS App Tracking Transparency)</strong> — запрашивается один раз перед загрузкой рекламы; при отказе показывается неперсонализированная реклама.</li>
+<li>Камера, микрофон, контакты, геолокация — <strong>не используются</strong>.</li>
+</ul>
+
+<h3>5. Сроки хранения и удаление</h3>
+<p>Локальные данные удаляются при удалении приложения. Резервная копия прогресса и записи в таблицах рекордов хранятся до удаления по вашему запросу: напишите на <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>, и мы удалим данные, связанные с вашим анонимным идентификатором, в течение 30 дней. Данные Analytics хранятся Google до 14 месяцев, отчёты о сбоях — 90 дней.</p>
+
+<h3>6. Безопасность</h3>
+<p>Обмен данными идёт по HTTPS. Доступ к Firebase ограничен правилами безопасности: каждый пользователь может записывать только свой прогресс и свои рекорды.</p>
+
+<h3>7. Дети</h3>
+<p>Игра подходит для всех возрастов, но не предназначена специально для детей младше 13 лет и не собирает от них сознательно персональные данные. Родители могут написать нам для удаления данных.</p>
+
+<h3>8. Ваши права</h3>
+<p>Вы можете в любой момент удалить приложение (локальные данные), изменить имя в таблице рекордов в настройках, отозвать согласие на персонализированную рекламу в настройках устройства и запросить удаление облачных данных по электронной почте. Жители ЕЭЗ, Великобритании, Бразилии и Калифорнии имеют право на доступ, исправление, удаление и переносимость данных — обращайтесь по адресу ниже.</p>
+
+<h3>9. Изменения политики</h3>
+<p>При изменении практик обработки данных мы обновим эту страницу и дату «Последнее обновление». Существенные изменения будут указаны в описании обновления в магазине.</p>
+
+<h3>10. Контакты</h3>
+<p>Вопросы по политике: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Исходный код: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
+</section>
+
+<section id="de" hidden>
+<h2 style="border:0;padding-top:0">Datenschutzerklärung</h2>
+<p class="meta date">Zuletzt aktualisiert: 23. September 2026</p>
+
+<div class="card">
+<strong>Kurz gesagt.</strong> Rebalance ist ein kostenloses, werbefinanziertes Worträtsel. Ein Konto ist nicht nötig. Dein Fortschritt liegt auf deinem Gerät und wird online unter einer anonymen ID in Firebase gesichert. Bestenlisten erhalten nur den von dir gewählten Namen und deine Punktzahl. Werbung liefern Google AdMob oder Yandex Ads je nach Land; sie können die Werbe-ID deines Geräts nach ihren eigenen Richtlinien nutzen. Wir verkaufen keine Daten und fragen nie nach Kontakten, Kamera, Mikrofon oder Standort.
+</div>
+
+<h3>1. Wer die Daten verarbeitet</h3>
+<p>Entwickler und Verantwortlicher ist Robert Tadevosyan (Einzelentwickler), <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Die App ist bei Google Play und im App Store unter der ID <code>am.game.rebalance</code> veröffentlicht.</p>
+
+<h3>2. Welche Daten die App nutzt und wo sie gespeichert werden</h3>
+<table>
+<tr><th>Daten</th><th>Zweck</th><th>Speicherort</th></tr>
+<tr><td>Spielfortschritt: gelöste Level, Sterne, Bestwerte, Tagesserien, Münzen, gekaufte Designs, Einstellungen</td><td>Betrieb des Spiels</td><td>Auf deinem Gerät (lokale Hive-Datenbank). Eine Kopie liegt in der Firebase Realtime Database unter einer anonymen ID, damit der Fortschritt auf einem neuen Gerät wiederhergestellt werden kann</td></tr>
+<tr><td>Anonyme Nutzer-ID (Firebase Authentication)</td><td>Deinen Fortschritt und deine Rekorde ohne Registrierung von anderen unterscheiden</td><td>Firebase (Google)</td></tr>
+<tr><td>Bestenlisten-Name (von dir eingegeben, bis 20 Zeichen) und Punktzahl</td><td>Weltweite Turm- und Tages-Bestenlisten</td><td>Firebase Realtime Database; für andere Spieler sichtbar</td></tr>
+<tr><td>Anonyme Nutzungsstatistik: Level gestartet, Level gelöst, Turm-Punktzahl, belohnte Werbung gesehen, Gerätemodell, OS- und App-Version</td><td>Erkennen, welche Level zu schwer sind, und das Spiel verbessern</td><td>Firebase Analytics (Google)</td></tr>
+<tr><td>Absturzberichte: Stacktrace, Gerätemodell, OS-Version, App-Zustand beim Absturz</td><td>Fehler beheben</td><td>Firebase Crashlytics (Google)</td></tr>
+<tr><td>Werbe-ID (GAID / IDFA – auf iOS nur mit deiner Erlaubnis), IP-Adresse, ungefähres Land, Einblendungs- und Klickdaten</td><td>Werbung ausliefern und messen</td><td>Google AdMob oder Yandex Ads (siehe Abschnitt 3)</td></tr>
+<tr><td>SIM-/Netzland</td><td>Wahl des Werbenetzwerks (Yandex in Russland und einigen GUS-Ländern, sonst AdMob)</td><td>Nur auf deinem Gerät; wird nie übertragen</td></tr>
+<tr><td>Zusätzliche Sprachpakete</td><td>Auf deinen Wunsch von einem statischen Dateihost geladen; der Server sieht deine IP-Adresse</td><td>Auf deinem Gerät</td></tr>
+</table>
+<p>Die App verlangt oder erfasst weder Namen, E-Mail-Adresse, Telefonnummer, Kontakte, Fotos, genauen Standort noch Zahlungsdaten. Es gibt keine In-App-Käufe.</p>
+
+<h3>3. Wer Daten erhält</h3>
+<ul>
+<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong> – Fortschrittssicherung, Bestenlisten, Statistik und Absturzberichte. <a href="https://firebase.google.com/support/privacy">Firebase-Datenschutz</a>.</li>
+<li><strong>Google AdMob</strong> (außerhalb der Yandex-Region) – Werbung. Vor der Initialisierung wird die Einwilligung über Google UMP (EWR/UK) und die iOS-Tracking-Abfrage eingeholt. <a href="https://policies.google.com/technologies/ads">Wie Google Daten in der Werbung nutzt</a>.</li>
+<li><strong>Yandex Ads</strong> (Russland, Belarus, Kasachstan, Usbekistan, Kirgisistan, Tadschikistan, Armenien, Aserbaidschan, Georgien, Moldau, Turkmenistan) – Werbung. <a href="https://yandex.com/legal/confidential/">Yandex-Datenschutz</a>.</li>
+</ul>
+<p>Wir verkaufen personenbezogene Daten nicht und geben sie an keine anderen Dritten weiter. Daten können auf Servern außerhalb deines Landes (auch in den USA und der EU) nach den Richtlinien der genannten Anbieter verarbeitet werden.</p>
+
+<h3>4. Berechtigungen und Gerätefunktionen</h3>
+<ul>
+<li><strong>Internet</strong> – Werbung, Fortschrittssicherung, Bestenlisten, Sprachpakete. Das Spiel ist vollständig offline spielbar.</li>
+<li><strong>Tracking-Erlaubnis (iOS App Tracking Transparency)</strong> – wird einmal vor dem Laden von Werbung abgefragt; bei Ablehnung wird nicht personalisierte Werbung gezeigt.</li>
+<li>Kamera, Mikrofon, Kontakte und Standort werden <strong>nicht verwendet</strong>.</li>
+</ul>
+
+<h3>5. Speicherdauer und Löschung</h3>
+<p>Lokale Daten werden beim Deinstallieren entfernt. Fortschrittssicherung und Bestenlisteneinträge bleiben, bis du die Löschung verlangst: schreibe an <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>, und wir löschen alles, was mit deiner anonymen ID verbunden ist, innerhalb von 30 Tagen. Google speichert Analytics-Daten bis zu 14 Monate und Absturzberichte 90 Tage.</p>
+
+<h3>6. Sicherheit</h3>
+<p>Der gesamte Datenverkehr läuft über HTTPS. Der Firebase-Zugriff ist durch Sicherheitsregeln beschränkt: Jeder Nutzer kann nur den eigenen Fortschritt und die eigenen Rekorde schreiben.</p>
+
+<h3>7. Kinder</h3>
+<p>Das Spiel ist für alle Altersgruppen geeignet, richtet sich aber nicht speziell an Kinder unter 13 Jahren und erfasst wissentlich keine personenbezogenen Daten von ihnen. Eltern können uns zur Löschung kontaktieren.</p>
+
+<h3>8. Deine Rechte</h3>
+<p>Du kannst die App jederzeit deinstallieren (lokale Daten), deinen Bestenlisten-Namen in den Einstellungen ändern, die Einwilligung in personalisierte Werbung in den Geräteeinstellungen widerrufen und die Löschung der Cloud-Daten per E-Mail verlangen. Personen im EWR, in Großbritannien, Brasilien und Kalifornien haben das Recht auf Auskunft, Berichtigung, Löschung und Übertragbarkeit – wende dich an die Adresse unten.</p>
+
+<h3>9. Änderungen dieser Erklärung</h3>
+<p>Bei geänderten Datenpraktiken aktualisieren wir diese Seite und das Datum „Zuletzt aktualisiert“. Wesentliche Änderungen werden in den Versionshinweisen im Store genannt.</p>
+
+<h3>10. Kontakt</h3>
+<p>Fragen zu dieser Erklärung: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Quellcode: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
+</section>
+<section id="es" hidden>
+<h2 style="border:0;padding-top:0">Política de privacidad</h2>
+<p class="meta date">Última actualización: 23 de septiembre de 2026</p>
+
+<div class="card">
+<strong>En resumen.</strong> Rebalance es un juego de palabras gratuito financiado con anuncios. No hace falta cuenta. Tu progreso vive en tu dispositivo y, con conexión, se respalda en Firebase bajo un ID anónimo. Las clasificaciones solo reciben el nombre que eliges y tu puntuación. Los anuncios los sirven Google AdMob o Yandex Ads según tu país, y pueden usar el identificador publicitario de tu dispositivo según sus propias políticas. No vendemos datos y nunca pedimos contactos, cámara, micrófono ni ubicación.
+</div>
+
+<h3>1. Quién trata los datos</h3>
+<p>El desarrollador y responsable del tratamiento es Robert Tadevosyan (desarrollador independiente), <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. La app se publica en Google Play y App Store con el id <code>am.game.rebalance</code>.</p>
+
+<h3>2. Qué datos usa la app y dónde se guardan</h3>
+<table>
+<tr><th>Datos</th><th>Finalidad</th><th>Dónde se guardan</th></tr>
+<tr><td>Progreso del juego: niveles superados, estrellas, mejores puntuaciones, rachas diarias, monedas, aspectos comprados, ajustes</td><td>Funcionamiento del juego</td><td>En tu dispositivo (base de datos local Hive). Se guarda una copia en Firebase Realtime Database bajo un ID anónimo para restaurar el progreso en un dispositivo nuevo</td></tr>
+<tr><td>ID de usuario anónimo (Firebase Authentication)</td><td>Distinguir tu progreso y tus récords de los de otros sin registro</td><td>Firebase (Google)</td></tr>
+<tr><td>Nombre para la clasificación (lo escribes tú, hasta 20 caracteres) y puntuación</td><td>Clasificaciones mundiales de Torre y Diario</td><td>Firebase Realtime Database; visible para otros jugadores</td></tr>
+<tr><td>Estadísticas de uso anónimas: nivel iniciado, nivel superado, puntuación de Torre, anuncio con recompensa visto, modelo de dispositivo, versión de SO y de la app</td><td>Saber qué niveles son demasiado difíciles y mejorar el juego</td><td>Firebase Analytics (Google)</td></tr>
+<tr><td>Informes de fallos: traza, modelo de dispositivo, versión de SO, estado de la app en el momento del fallo</td><td>Corregir errores</td><td>Firebase Crashlytics (Google)</td></tr>
+<tr><td>Identificador publicitario (GAID / IDFA; en iOS solo con tu permiso), dirección IP, país aproximado, datos de impresiones y clics</td><td>Mostrar y medir anuncios</td><td>Google AdMob o Yandex Ads (ver sección 3)</td></tr>
+<tr><td>País de la SIM / red</td><td>Elegir la red publicitaria (Yandex en Rusia y algunos países de la CEI; AdMob en el resto)</td><td>Solo en tu dispositivo; nunca se envía</td></tr>
+<tr><td>Paquetes de idioma adicionales</td><td>Se descargan a petición tuya desde un alojamiento estático; el servidor ve tu dirección IP</td><td>En tu dispositivo</td></tr>
+</table>
+<p>La app no requiere ni recopila tu nombre, correo electrónico, teléfono, contactos, fotos, ubicación precisa ni datos de pago. No hay compras dentro de la app.</p>
+
+<h3>3. Quién recibe datos</h3>
+<ul>
+<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong>: copia del progreso, clasificaciones, estadísticas e informes de fallos. <a href="https://firebase.google.com/support/privacy">Privacidad de Firebase</a>.</li>
+<li><strong>Google AdMob</strong> (fuera de la región de Yandex): anuncios. Antes de inicializarlos se pide el consentimiento mediante Google UMP (EEE/Reino Unido) y el aviso de seguimiento de iOS. <a href="https://policies.google.com/technologies/ads">Cómo usa Google los datos en la publicidad</a>.</li>
+<li><strong>Yandex Ads</strong> (Rusia, Bielorrusia, Kazajistán, Uzbekistán, Kirguistán, Tayikistán, Armenia, Azerbaiyán, Georgia, Moldavia, Turkmenistán): anuncios. <a href="https://yandex.com/legal/confidential/">Política de privacidad de Yandex</a>.</li>
+</ul>
+<p>No vendemos datos personales ni los compartimos con ningún otro tercero. Los datos pueden tratarse en servidores fuera de tu país (incluidos EE. UU. y la UE) según las políticas de los proveedores anteriores.</p>
+
+<h3>4. Permisos y funciones del dispositivo</h3>
+<ul>
+<li><strong>Internet</strong>: anuncios, copia del progreso, clasificaciones, descarga de paquetes de idioma. El juego funciona por completo sin conexión.</li>
+<li><strong>Permiso de seguimiento (iOS App Tracking Transparency)</strong>: se pide una vez antes de cargar anuncios; si lo rechazas, se muestran anuncios no personalizados.</li>
+<li>Cámara, micrófono, contactos y ubicación <strong>no se usan</strong>.</li>
+</ul>
+
+<h3>5. Conservación y eliminación</h3>
+<p>Los datos locales se borran al desinstalar la app. La copia del progreso y las entradas de clasificación se conservan hasta que pidas borrarlas: escribe a <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a> y eliminaremos todo lo vinculado a tu ID anónimo en 30 días. Google conserva los datos de Analytics hasta 14 meses y los informes de fallos 90 días.</p>
+
+<h3>6. Seguridad</h3>
+<p>Todo el tráfico usa HTTPS. El acceso a Firebase está limitado por reglas de seguridad: cada usuario solo puede escribir su propio progreso y sus propios récords.</p>
+
+<h3>7. Menores</h3>
+<p>El juego es apto para todas las edades, pero no está dirigido específicamente a menores de 13 años y no recopila a sabiendas sus datos personales. Los padres pueden contactarnos para solicitar la eliminación.</p>
+
+<h3>8. Tus derechos</h3>
+<p>Puedes desinstalar la app en cualquier momento (datos locales), cambiar tu nombre de clasificación en Ajustes, retirar el consentimiento a los anuncios personalizados en los ajustes del dispositivo y pedir por correo la eliminación de los datos en la nube. Los residentes del EEE, Reino Unido, Brasil y California tienen derecho de acceso, rectificación, supresión y portabilidad; escríbenos a la dirección de abajo.</p>
+
+<h3>9. Cambios en esta política</h3>
+<p>Si cambian las prácticas de datos, actualizaremos esta página y la fecha de «Última actualización». Los cambios importantes se indicarán en las notas de la versión en la tienda.</p>
+
+<h3>10. Contacto</h3>
+<p>Preguntas sobre esta política: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Código fuente: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
+</section>
+<section id="fr" hidden>
+<h2 style="border:0;padding-top:0">Politique de confidentialité</h2>
+<p class="meta date">Dernière mise à jour : 23 septembre 2026</p>
+
+<div class="card">
+<strong>En bref.</strong> Rebalance est un jeu de mots gratuit financé par la publicité. Aucun compte n'est requis. Votre progression reste sur votre appareil et, en ligne, est sauvegardée dans Firebase sous un identifiant anonyme. Les classements ne reçoivent que le nom que vous choisissez et votre score. Les publicités sont servies par Google AdMob ou Yandex Ads selon votre pays ; ils peuvent utiliser l'identifiant publicitaire de votre appareil selon leurs propres politiques. Nous ne vendons aucune donnée et ne demandons jamais l'accès aux contacts, à la caméra, au micro ni à la position.
+</div>
+
+<h3>1. Qui traite les données</h3>
+<p>Le développeur et responsable du traitement est Robert Tadevosyan (développeur indépendant), <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. L'application est publiée sur Google Play et l'App Store sous l'identifiant <code>am.game.rebalance</code>.</p>
+
+<h3>2. Quelles données l'application utilise et où elles sont stockées</h3>
+<table>
+<tr><th>Données</th><th>Finalité</th><th>Où elles sont stockées</th></tr>
+<tr><td>Progression : niveaux réussis, étoiles, meilleurs scores, séries quotidiennes, pièces, habillages achetés, réglages</td><td>Fonctionnement du jeu</td><td>Sur votre appareil (base locale Hive). Une copie est conservée dans Firebase Realtime Database sous un identifiant anonyme pour restaurer la progression sur un nouvel appareil</td></tr>
+<tr><td>Identifiant utilisateur anonyme (Firebase Authentication)</td><td>Distinguer votre progression et vos records de ceux des autres sans inscription</td><td>Firebase (Google)</td></tr>
+<tr><td>Nom de classement (saisi par vous, 20 caractères max.) et score</td><td>Classements mondiaux Tour et Quotidien</td><td>Firebase Realtime Database ; visible par les autres joueurs</td></tr>
+<tr><td>Statistiques d'usage anonymes : niveau commencé, niveau réussi, score de la Tour, publicité récompensée vue, modèle d'appareil, versions du système et de l'application</td><td>Repérer les niveaux trop difficiles et améliorer le jeu</td><td>Firebase Analytics (Google)</td></tr>
+<tr><td>Rapports de plantage : trace, modèle d'appareil, version du système, état de l'application au moment du plantage</td><td>Corriger les bugs</td><td>Firebase Crashlytics (Google)</td></tr>
+<tr><td>Identifiant publicitaire (GAID / IDFA – sur iOS uniquement avec votre accord), adresse IP, pays approximatif, données d'affichage et de clic</td><td>Diffuser et mesurer les publicités</td><td>Google AdMob ou Yandex Ads (voir section 3)</td></tr>
+<tr><td>Pays de la SIM / du réseau</td><td>Choix du réseau publicitaire (Yandex en Russie et dans certains pays de la CEI, AdMob ailleurs)</td><td>Sur votre appareil uniquement ; jamais transmis</td></tr>
+<tr><td>Packs de langues supplémentaires</td><td>Téléchargés à votre demande depuis un hébergement statique ; le serveur voit votre adresse IP</td><td>Sur votre appareil</td></tr>
+</table>
+<p>L'application n'exige ni ne collecte votre nom, adresse e-mail, numéro de téléphone, contacts, photos, position précise ou données de paiement. Il n'y a aucun achat intégré.</p>
+
+<h3>3. Qui reçoit des données</h3>
+<ul>
+<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong> – sauvegarde de la progression, classements, statistiques et rapports de plantage. <a href="https://firebase.google.com/support/privacy">Confidentialité Firebase</a>.</li>
+<li><strong>Google AdMob</strong> (hors région Yandex) – publicité. Le consentement est demandé via Google UMP (EEE/Royaume-Uni) et l'invite de suivi iOS avant l'initialisation des publicités. <a href="https://policies.google.com/technologies/ads">Comment Google utilise les données dans la publicité</a>.</li>
+<li><strong>Yandex Ads</strong> (Russie, Biélorussie, Kazakhstan, Ouzbékistan, Kirghizistan, Tadjikistan, Arménie, Azerbaïdjan, Géorgie, Moldavie, Turkménistan) – publicité. <a href="https://yandex.com/legal/confidential/">Politique de confidentialité de Yandex</a>.</li>
+</ul>
+<p>Nous ne vendons pas de données personnelles et ne les partageons avec aucun autre tiers. Les données peuvent être traitées sur des serveurs hors de votre pays (y compris aux États-Unis et dans l'UE) selon les politiques des prestataires ci-dessus.</p>
+
+<h3>4. Autorisations et fonctions de l'appareil</h3>
+<ul>
+<li><strong>Internet</strong> – publicités, sauvegarde de la progression, classements, téléchargement des packs de langues. Le jeu est entièrement jouable hors ligne.</li>
+<li><strong>Autorisation de suivi (iOS App Tracking Transparency)</strong> – demandée une fois avant le chargement des publicités ; en cas de refus, des publicités non personnalisées sont affichées.</li>
+<li>Caméra, micro, contacts et position ne sont <strong>pas utilisés</strong>.</li>
+</ul>
+
+<h3>5. Conservation et suppression</h3>
+<p>Les données locales sont supprimées à la désinstallation. La sauvegarde de progression et les entrées de classement sont conservées jusqu'à votre demande de suppression : écrivez à <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a> et nous supprimerons tout ce qui est lié à votre identifiant anonyme sous 30 jours. Google conserve les données Analytics jusqu'à 14 mois et les rapports de plantage 90 jours.</p>
+
+<h3>6. Sécurité</h3>
+<p>Tout le trafic passe par HTTPS. L'accès à Firebase est limité par des règles de sécurité : chaque utilisateur ne peut écrire que sa propre progression et ses propres records.</p>
+
+<h3>7. Enfants</h3>
+<p>Le jeu convient à tous les âges mais ne s'adresse pas spécifiquement aux enfants de moins de 13 ans et ne collecte pas sciemment leurs données personnelles. Les parents peuvent nous contacter pour demander une suppression.</p>
+
+<h3>8. Vos droits</h3>
+<p>Vous pouvez désinstaller l'application à tout moment (données locales), changer votre nom de classement dans les Réglages, retirer votre consentement aux publicités personnalisées dans les réglages de l'appareil et demander par e-mail la suppression des données dans le cloud. Les résidents de l'EEE, du Royaume-Uni, du Brésil et de Californie disposent des droits d'accès, de rectification, d'effacement et de portabilité – contactez-nous à l'adresse ci-dessous.</p>
+
+<h3>9. Modifications de cette politique</h3>
+<p>Si nos pratiques changent, nous mettrons à jour cette page et la date de « Dernière mise à jour ». Les changements importants seront signalés dans les notes de version de la boutique.</p>
+
+<h3>10. Contact</h3>
+<p>Questions sur cette politique : <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Code source : <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
+</section>
+<section id="pt" hidden>
+<h2 style="border:0;padding-top:0">Política de privacidade</h2>
+<p class="meta date">Última atualização: 23 de setembro de 2026</p>
+
+<div class="card">
+<strong>Em resumo.</strong> Rebalance é um jogo de palavras gratuito mantido por anúncios. Não é preciso conta. Seu progresso fica no seu dispositivo e, com internet, é salvo no Firebase sob um ID anônimo. Os rankings recebem apenas o nome que você escolhe e sua pontuação. Os anúncios são exibidos pelo Google AdMob ou pelo Yandex Ads conforme o país, e eles podem usar o identificador de publicidade do seu dispositivo segundo suas próprias políticas. Não vendemos dados e nunca pedimos contatos, câmera, microfone ou localização.
+</div>
+
+<h3>1. Quem trata os dados</h3>
+<p>O desenvolvedor e controlador dos dados é Robert Tadevosyan (desenvolvedor independente), <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. O app é publicado no Google Play e na App Store com o id <code>am.game.rebalance</code>.</p>
+
+<h3>2. Quais dados o app usa e onde ficam armazenados</h3>
+<table>
+<tr><th>Dados</th><th>Finalidade</th><th>Onde ficam</th></tr>
+<tr><td>Progresso do jogo: fases concluídas, estrelas, melhores pontuações, sequências diárias, moedas, temas comprados, configurações</td><td>Funcionamento do jogo</td><td>No seu dispositivo (banco local Hive). Uma cópia fica no Firebase Realtime Database sob um ID anônimo para restaurar o progresso em um novo dispositivo</td></tr>
+<tr><td>ID de usuário anônimo (Firebase Authentication)</td><td>Distinguir seu progresso e seus recordes dos de outros jogadores sem cadastro</td><td>Firebase (Google)</td></tr>
+<tr><td>Nome do ranking (digitado por você, até 20 caracteres) e pontuação</td><td>Rankings mundiais da Torre e do Diário</td><td>Firebase Realtime Database; visível para outros jogadores</td></tr>
+<tr><td>Estatísticas de uso anônimas: fase iniciada, fase concluída, pontuação da Torre, anúncio premiado assistido, modelo do dispositivo, versão do sistema e do app</td><td>Descobrir quais fases são difíceis demais e melhorar o jogo</td><td>Firebase Analytics (Google)</td></tr>
+<tr><td>Relatórios de falhas: stack trace, modelo do dispositivo, versão do sistema, estado do app no momento da falha</td><td>Corrigir erros</td><td>Firebase Crashlytics (Google)</td></tr>
+<tr><td>Identificador de publicidade (GAID / IDFA – no iOS só com sua permissão), endereço IP, país aproximado, dados de impressões e cliques</td><td>Exibir e medir anúncios</td><td>Google AdMob ou Yandex Ads (ver seção 3)</td></tr>
+<tr><td>País do chip / da rede</td><td>Escolha da rede de anúncios (Yandex na Rússia e em alguns países da CEI; AdMob nos demais)</td><td>Só no seu dispositivo; nunca é enviado</td></tr>
+<tr><td>Pacotes de idioma adicionais</td><td>Baixados a seu pedido de uma hospedagem estática; o servidor vê seu endereço IP</td><td>No seu dispositivo</td></tr>
+</table>
+<p>O app não exige nem coleta seu nome, e-mail, telefone, contatos, fotos, localização precisa ou dados de pagamento. Não há compras no aplicativo.</p>
+
+<h3>3. Quem recebe dados</h3>
+<ul>
+<li><strong>Google (Firebase Authentication, Realtime Database, Remote Config, Analytics, Crashlytics)</strong> – backup do progresso, rankings, estatísticas e relatórios de falhas. <a href="https://firebase.google.com/support/privacy">Privacidade do Firebase</a>.</li>
+<li><strong>Google AdMob</strong> (fora da região Yandex) – anúncios. O consentimento é pedido pelo Google UMP (EEE/Reino Unido) e pelo aviso de rastreamento do iOS antes de os anúncios serem inicializados. <a href="https://policies.google.com/technologies/ads">Como o Google usa dados em publicidade</a>.</li>
+<li><strong>Yandex Ads</strong> (Rússia, Belarus, Cazaquistão, Uzbequistão, Quirguistão, Tadjiquistão, Armênia, Azerbaijão, Geórgia, Moldávia, Turcomenistão) – anúncios. <a href="https://yandex.com/legal/confidential/">Política de privacidade da Yandex</a>.</li>
+</ul>
+<p>Não vendemos dados pessoais nem os compartilhamos com nenhum outro terceiro. Os dados podem ser tratados em servidores fora do seu país (inclusive nos EUA e na UE) segundo as políticas dos provedores acima.</p>
+
+<h3>4. Permissões e recursos do dispositivo</h3>
+<ul>
+<li><strong>Internet</strong> – anúncios, backup do progresso, rankings, download de pacotes de idioma. O jogo funciona totalmente offline.</li>
+<li><strong>Permissão de rastreamento (iOS App Tracking Transparency)</strong> – pedida uma vez antes de carregar anúncios; se recusada, anúncios não personalizados são exibidos.</li>
+<li>Câmera, microfone, contatos e localização <strong>não são usados</strong>.</li>
+</ul>
+
+<h3>5. Retenção e exclusão</h3>
+<p>Os dados locais são removidos ao desinstalar o app. O backup do progresso e as entradas de ranking ficam guardados até você pedir a exclusão: escreva para <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a> e apagaremos tudo ligado ao seu ID anônimo em até 30 dias. O Google guarda dados do Analytics por até 14 meses e relatórios de falhas por 90 dias.</p>
+
+<h3>6. Segurança</h3>
+<p>Todo o tráfego usa HTTPS. O acesso ao Firebase é restrito por regras de segurança: cada usuário só pode gravar o próprio progresso e os próprios recordes.</p>
+
+<h3>7. Crianças</h3>
+<p>O jogo é adequado para todas as idades, mas não é dirigido especificamente a menores de 13 anos e não coleta conscientemente dados pessoais deles. Pais podem nos contatar para pedir a exclusão.</p>
+
+<h3>8. Seus direitos</h3>
+<p>Você pode desinstalar o app a qualquer momento (dados locais), mudar seu nome de ranking nas Configurações, retirar o consentimento para anúncios personalizados nas configurações do dispositivo e pedir por e-mail a exclusão dos dados na nuvem. Residentes do EEE, Reino Unido, Brasil e Califórnia têm direito de acesso, correção, exclusão e portabilidade – fale conosco no endereço abaixo.</p>
+
+<h3>9. Alterações nesta política</h3>
+<p>Se as práticas de dados mudarem, atualizaremos esta página e a data de "Última atualização". Mudanças relevantes serão indicadas nas notas de versão da loja.</p>
+
+<h3>10. Contato</h3>
+<p>Perguntas sobre esta política: <a href="mailto:robtdyn@gmail.com">robtdyn@gmail.com</a>. Código-fonte: <a href="https://github.com/RobertTadevosyan/Rebalance">github.com/RobertTadevosyan/Rebalance</a>.</p>
+</section>
 <script>
 (function(){
-  var ru=document.getElementById('ru'),en=document.getElementById('en'),tr=document.getElementById('tab-ru'),te=document.getElementById('tab-en');
-  function show(l){var e=l==='en';en.hidden=!e;ru.hidden=e;te.classList.toggle('on',e);tr.classList.toggle('on',!e);document.documentElement.lang=l;}
-  tr.onclick=function(ev){ev.preventDefault();show('ru');history.replaceState(null,'','#ru');};
-  te.onclick=function(ev){ev.preventDefault();show('en');history.replaceState(null,'','#en');};
-  var h=location.hash.replace('#',''); if(h==='en'||h==='ru'){show(h);} else if(!/^ru/i.test(navigator.language||'')){show('en');}
+  var langs=['en','ru','de','es','fr','pt'];
+  function show(l){
+    langs.forEach(function(c){
+      document.getElementById(c).hidden=(c!==l);
+      document.getElementById('tab-'+c).classList.toggle('on',c===l);
+    });
+    document.documentElement.lang=l;
+  }
+  langs.forEach(function(c){
+    document.getElementById('tab-'+c).onclick=function(ev){ev.preventDefault();show(c);history.replaceState(null,'','#'+c);};
+  });
+  var h=location.hash.replace('#','');
+  if(langs.indexOf(h)>=0){show(h);}
+  else{var n=(navigator.language||'en').slice(0,2).toLowerCase();show(langs.indexOf(n)>=0?n:'en');}
 })();
 </script>
 </body>
