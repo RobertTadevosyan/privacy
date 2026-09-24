@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "id": "am.game.rebalance",
+      "name": "Rebalance",
+      "tagline": {
+        "en": "Two words, one beam. A calm word puzzle on a brass scale.",
+        "ru": "Два слова, одно коромысло. Спокойная словесная головоломка."
+      },
+      "play": "https://play.google.com/store/apps/details?id=am.game.rebalance",
+      "appStore": "https://apps.apple.com/app/id6815433437",
+      "color": "#B8863B",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "am.game.colorsortx",
+      "name": "Color Sort X",
+      "tagline": {
+        "en": "Pour, sort, relax. A calm colour-sorting puzzle with Mix, Fog and Burst chapters.",
+        "ru": "Переливай, сортируй, отдыхай. Спокойная головоломка с главами Смешивание, Туман и Взрыв."
+      },
+      "play": "https://play.google.com/store/apps/details?id=am.game.colorsortx",
+      "appStore": "https://apps.apple.com/app/id0000000000",
+      "color": "#5B3DF5",
+      "emoji": "🧪"
+    }
+  ]
+}
