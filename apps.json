@@ -1,6 +1,19 @@
 {
   "apps": [
     {
+      "id": "am.game.colorsortx",
+      "name": "Hue Lab",
+      "tagline": {
+        "en": "Pour, mix, relax. A calm colour puzzle with Mix, Fog, Capped and Burst chapters.",
+        "ru": "Переливай, смешивай, отдыхай. Спокойная головоломка с главами Смешивание, Туман, Пробка и Взрыв."
+      },
+      "play": "https://play.google.com/store/apps/details?id=am.game.colorsortx",
+      "appStore": "https://apps.apple.com/app/id6815808290",
+      "icon": "https://play-lh.googleusercontent.com/zD8pRl239Z1vsCEGQ3uoLSHywxZC4SCkOAD59TN1RcqXw83uPZXCvnzChrTFwN9xDzZnIapMfBkASopZq2e3DAQ=s256",
+      "color": "#5B3DF5",
+      "emoji": "🧪"
+    },
+    {
       "id": "am.game.rebalance",
       "name": "Rebalance",
       "tagline": {
@@ -9,20 +22,33 @@
       },
       "play": "https://play.google.com/store/apps/details?id=am.game.rebalance",
       "appStore": "https://apps.apple.com/app/id6815433437",
+      "icon": "https://play-lh.googleusercontent.com/5a8ASXhuMeBqvE0q2TdpzimxVU1cv5owhuPgNvmHqXab2V1oGm4-o6sy1kOOqPJzOVHQBEEx23vuWdf8Z9P14Q=s256",
       "color": "#B8863B",
       "emoji": "⚖️"
     },
     {
-      "id": "am.game.colorsortx",
-      "name": "Hue Lab",
+      "id": "lets.play.game",
+      "name": "Tile Titans: Merge Puzzle",
       "tagline": {
-        "en": "Pour, sort, relax. A calm colour-sorting puzzle with Mix, Fog and Burst chapters.",
-        "ru": "Переливай, сортируй, отдыхай. Спокойная головоломка с главами Смешивание, Туман и Взрыв."
+        "en": "Merge matching tiles into bigger ones in a relaxed number puzzle.",
+        "ru": "Соединяйте одинаковые плитки в более крупные в спокойной числовой головоломке."
       },
-      "play": "https://play.google.com/store/apps/details?id=am.game.colorsortx",
-      "appStore": "https://apps.apple.com/app/id0000000000",
-      "color": "#5B3DF5",
-      "emoji": "🧪"
+      "play": "https://play.google.com/store/apps/details?id=lets.play.game",
+      "icon": "https://play-lh.googleusercontent.com/wX0aIPBaw-A6f6_0EYw9xHU4Wx9YQMtACmtm7dmy9XuimYCkYdMoQscpgBnEpmmkTExRe7TUhuiKhnzGTwKz=s256",
+      "color": "#2F80ED",
+      "emoji": "🔢"
+    },
+    {
+      "id": "mind.game.sudoku",
+      "name": "Sudoku Mastermind",
+      "tagline": {
+        "en": "Classic sudoku with hints, notes and daily puzzles.",
+        "ru": "Классическое судоку с подсказками, заметками и ежедневными задачами."
+      },
+      "play": "https://play.google.com/store/apps/details?id=mind.game.sudoku",
+      "icon": "https://play-lh.googleusercontent.com/eT27zEIPiHCtyKhFgl61G1GhegyNSv1TK9FNw-YlNmWc5k1DbbzuHiGzEg0pGfCKOhssTkseZ-vXcwfVqbGInV0=s256",
+      "color": "#2EB67D",
+      "emoji": "🧩"
     }
   ]
 }
