@@ -9,6 +9,7 @@ index.html                     # list of apps
 app.adpocket.yan/index.html    # AdPocket — RU + EN, self-contained
 am.game.rebalance/index.html   # Rebalance — RU + EN, self-contained
 am.game.colorsortx/index.html  # Hue Lab — EN + RU, self-contained
+com.robs_project.saleapp/index.html  # BoomErange — HY + RU + EN, self-contained
 ```
 
 Publish: copy this folder to the root of a public repository, enable Pages
