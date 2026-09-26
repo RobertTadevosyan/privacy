@@ -27,6 +27,19 @@
       "emoji": "⚖️"
     },
     {
+      "id": "com.robtdyn.babygame",
+      "name": "Captain Giraffe",
+      "tagline": {
+        "en": "Animals, vehicles, sea, fruit and shapes: calm learning games for ages 1–4.",
+        "ru": "Животные, транспорт, море, фрукты, фигуры: спокойные развивающие игры для детей 1–4 лет."
+      },
+      "play": "https://play.google.com/store/apps/details?id=com.robtdyn.babygame",
+      "appStore": "https://apps.apple.com/app/id6816398156",
+      "icon": "https://roberttadevosyan.github.io/privacy/com.robtdyn.babygame/icon.png",
+      "color": "#FF7A3C",
+      "emoji": "🦒"
+    },
+    {
       "id": "lets.play.game",
       "name": "Tile Titans: Merge Puzzle",
       "tagline": {
