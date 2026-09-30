@@ -41,15 +41,15 @@
     },
     {
       "id": "lets.play.game",
-      "name": "Tile Titans: Merge Puzzle",
+      "name": "Tile Titans: Merge Trials",
       "tagline": {
-        "en": "Merge matching tiles into bigger ones in a relaxed number puzzle.",
-        "ru": "Соединяйте одинаковые плитки в более крупные в спокойной числовой головоломке."
+        "en": "Eighteen built trials, a new one daily, and four modes that really differ.",
+        "ru": "Восемнадцать испытаний, новое каждый день и четыре по-настоящему разных режима."
       },
       "play": "https://play.google.com/store/apps/details?id=lets.play.game",
       "icon": "https://play-lh.googleusercontent.com/wX0aIPBaw-A6f6_0EYw9xHU4Wx9YQMtACmtm7dmy9XuimYCkYdMoQscpgBnEpmmkTExRe7TUhuiKhnzGTwKz=s256",
-      "color": "#2F80ED",
-      "emoji": "🔢"
+      "color": "#E2703A",
+      "emoji": "⚒️"
     },
     {
       "id": "mind.game.sudoku",
