@@ -10,6 +10,7 @@ app.adpocket.yan/index.html    # AdPocket — RU + EN, self-contained
 am.game.rebalance/index.html   # Rebalance — RU + EN, self-contained
 am.game.arrowchefs/index.html  # Arrow Chefs — 19 languages, self-contained (+ support/)
 am.game.colorsortx/index.html  # Hue Lab — EN + RU, self-contained
+mind.game.sudoku/index.html    # Sudoku Mastermind — 9 languages, self-contained
 com.robs_project.saleapp/index.html  # BoomErange — HY + RU + EN, self-contained
 ```
 
