@@ -27,6 +27,18 @@
       "emoji": "⚖️"
     },
     {
+      "id": "am.game.arrowchefs",
+      "name": "Arrow Chefs",
+      "tagline": {
+        "en": "Lay the arrows, watch it cook. A calm kitchen puzzle with a new breakfast every day.",
+        "ru": "Расставь стрелки — и смотри, как готовится. Спокойная кухонная головоломка с новым завтраком каждый день."
+      },
+      "play": "https://play.google.com/store/apps/details?id=am.game.arrowchefs",
+      "icon": "https://play-lh.googleusercontent.com/UjDjX1zrQnhY85so-TWkI513gQtgHlZL2Nf_0Qnmvu5dURfQ9ieC2oBg3bo8LwUrWjEm8Iyi3pJEyRP8zdnv7is=s256",
+      "color": "#D44A34",
+      "emoji": "🧑‍🍳"
+    },
+    {
       "id": "com.robtdyn.babygame",
       "name": "Captain Giraffe",
       "tagline": {
