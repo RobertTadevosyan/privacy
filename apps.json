@@ -75,6 +75,19 @@
       "icon": "https://play-lh.googleusercontent.com/eT27zEIPiHCtyKhFgl61G1GhegyNSv1TK9FNw-YlNmWc5k1DbbzuHiGzEg0pGfCKOhssTkseZ-vXcwfVqbGInV0=s256",
       "color": "#2EB67D",
       "emoji": "🧩"
+    },
+    {
+      "id": "gore.rak.na",
+      "name": "Когда рак на горе свистнет",
+      "tagline": {
+        "en": "A red crayfish climbs six mountains through 50 proverb levels and 12 mini-games.",
+        "ru": "Рак идёт на гору: 50 уровней-пословиц и 12 мини-игр на шести горах."
+      },
+      "play": "https://play.google.com/store/apps/details?id=gore.rak.na",
+      "appStore": "",
+      "icon": "https://roberttadevosyan.github.io/assets/icons/rak-na-gore.png",
+      "color": "#E0453A",
+      "emoji": "🦞"
     }
   ]
 }
