@@ -58,10 +58,10 @@
 
 <section id="en">
 <h2 style="border:0;padding-top:0">Privacy Policy</h2>
-<p class="meta date">Last updated: 7 November 2026</p>
+<p class="meta date">Last updated: 8 November 2026</p>
 
 <div class="card">
-<strong>In short.</strong> Don't Seat Them Together is a free puzzle game with ads. It has no accounts and no server of its own: your progress and settings stay on your device. Data leaves the game in two cases only: the ad network serving your region collects what it needs to show ads, and if you send a table to a friend, the names you typed travel inside that link. The game has no analytics and no crash reporting.
+<strong>In short.</strong> Don't Seat Them Together is a free puzzle game with ads. It has no accounts and no server of its own: your progress and settings stay on your device. Data leaves the game in two cases only: the ad network serving your region collects what it needs to show ads, and if you send a table to a friend, the names you typed travel inside that link. The game has no analytics or crash reporting of its own; the Yandex ad SDK carries Yandex's AppMetrica library, which sends Yandex technical data and crash reports about that SDK (see section 3).
 </div>
 
 <h3>1. Who processes the data</h3>
@@ -70,11 +70,11 @@
 <h3>2. What data the app uses and where it is stored</h3>
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Where it is stored</th></tr>
-<tr><td>Progress: which tables you have solved</td><td>Opening the next table</td><td>On your device only</td></tr>
-<tr><td>Settings: language, music, sound, vibration</td><td>Your preferences</td><td>On your device only</td></tr>
+<tr><td>Progress: which tables you have solved</td><td>Opening the next table</td><td>On your device, and in your phone's own backup if it is on</td></tr>
+<tr><td>Settings: language, music, sound, vibration</td><td>Your preferences</td><td>On your device, and in your phone's own backup if it is on</td></tr>
 <tr><td>Names you type for your own table, and who can't stand whom</td><td>Building a table to send to a friend</td><td>In the app's memory while you build it; not saved. They go into the link only if you make and send one (see section 3)</td></tr>
 <tr><td>Time zone and the country of your device's language setting</td><td>Choosing the ad network (see section 3)</td><td>Read on your device; the game does not send them anywhere</td></tr>
-<tr><td>Ad counters: number of sessions, time of the last launch and the last ad, free uses taken today</td><td>Limiting how often ads appear</td><td>On your device only</td></tr>
+<tr><td>Ad counters: number of sessions, time of the last launch and the last ad, free uses taken today</td><td>Limiting how often ads appear</td><td>On your device, and in your phone's own backup if it is on</td></tr>
 <tr><td>Advertising identifier (GAID / IDFA; on iOS only with your permission), IP address, approximate location from the IP address, device model and system version, ad impressions and clicks</td><td>Showing and measuring ads</td><td>Collected directly by Google AdMob or Yandex Ads (see section 3)</td></tr>
 </table>
 <p>The app does not ask for or collect your e-mail address, phone number, contacts, photos, precise location or payment details. There are no in-app purchases.</p>
@@ -85,7 +85,7 @@
 <li><strong>Yandex Ads</strong> (Russia, Belarus, Kazakhstan, Uzbekistan, Kyrgyzstan, Tajikistan, Turkmenistan, Armenia, Azerbaijan, Georgia, Moldova): ad serving. On iOS your answer to the tracking prompt is passed to Yandex as your consent choice. <a href="https://yandex.com/legal/confidential/">Yandex privacy policy</a>.</li>
 <li><strong>The app you share through, and the website host.</strong> A table link goes through the app you choose, such as a messenger, under that app's terms. If the link is opened in a browser, the part of the address that holds the table and the names stays in the browser and is not sent to the website's host, GitHub Pages. The host only receives a request for the page, as with any website, including the visitor's IP address.</li>
 </ul>
-<p>Both ad SDKs are built into the app. Ads are requested only from the network chosen for your region, but the other SDK can still start together with the app and may contact its own servers. We do not sell personal data or share it with any other third party. Ad data may be processed on servers outside your country (including the US, the EU and Russia) under the policies of the providers above.</p>
+<p>Both ad SDKs are built into the app. Ads are requested only from the network chosen for your region, but the other SDK can still start together with the app and may contact its own servers. The Yandex Ads SDK includes AppMetrica, Yandex's analytics and crash-reporting library: it can send Yandex device and app details, performance data and crash reports about the SDK, under the Yandex privacy policy. The game itself sends it nothing. We do not sell personal data or share it with any other third party. Ad data may be processed on servers outside your country (including the US, the EU and Russia) under the policies of the providers above.</p>
 
 <h3>4. Ads in the game</h3>
 <p>Your first 3 sessions show no ads. After that a banner sits under the table while you play. Hints give 3 free uses a day, and so do extra moves or time. After those, a video ad plays only when you press the button for it. If no ad is available, you get the hint or the extra moves anyway. No full-screen ad appears on its own. Undo, restart and exit are always free, and there is nothing to buy.</p>
@@ -101,7 +101,7 @@
 </ul>
 
 <h3>6. Retention and deletion</h3>
-<p>Data on your device stays until you remove it. <em>Settings → Reset progress</em> clears your solved tables and cannot be undone. Uninstalling the app removes everything it stored. We hold no data on any server, so there is nothing to delete on our side. A link you have already sent stays with the people who received it; we cannot recall it. Ad data is kept under the policies of the ad networks.</p>
+<p>Data on your device stays until you remove it. <em>Settings → Reset progress</em> clears your solved tables and cannot be undone. Uninstalling the app removes everything it stored on the device. If your phone's backup is on (Google backup on Android; iCloud or a computer backup on iOS), the backup may keep a copy of progress, settings and ad counters and restore it on a new phone; you manage or delete that copy in your phone's backup settings. We hold no data on any server, so there is nothing to delete on our side. A link you have already sent stays with the people who received it; we cannot recall it. Ad data is kept under the policies of the ad networks.</p>
 
 <h3>7. Security</h3>
 <p>Table links are encoded, not encrypted: anyone who has a link can read the names in it, so send it only to people you are happy to show those names to. The game checks every link it opens and refuses a damaged one.</p>
@@ -121,10 +121,10 @@
 
 <section id="ru" hidden>
 <h2 style="border:0;padding-top:0">Политика конфиденциальности</h2>
-<p class="meta date">Последнее обновление: 7 ноября 2026 г.</p>
+<p class="meta date">Последнее обновление: 8 ноября 2026 г.</p>
 
 <div class="card">
-<strong>Коротко.</strong> «Их рядом не сажать» — бесплатная игра-головоломка с рекламой. В ней нет аккаунтов и собственного сервера: прогресс и настройки остаются на вашем устройстве. Данные покидают игру только в двух случаях: рекламная сеть вашего региона собирает то, что нужно для показа рекламы, а если вы отправляете стол другу, введённые имена передаются внутри этой ссылки. Аналитики и отчётов о сбоях в игре нет.
+<strong>Коротко.</strong> «Их рядом не сажать» — бесплатная игра-головоломка с рекламой. В ней нет аккаунтов и собственного сервера: прогресс и настройки остаются на вашем устройстве. Данные покидают игру только в двух случаях: рекламная сеть вашего региона собирает то, что нужно для показа рекламы, а если вы отправляете стол другу, введённые имена передаются внутри этой ссылки. Собственной аналитики и отчётов о сбоях в игре нет; рекламная библиотека Яндекса содержит библиотеку AppMetrica, которая передаёт Яндексу технические данные и отчёты о сбоях этой библиотеки (см. п. 3).
 </div>
 
 <h3>1. Кто обрабатывает данные</h3>
@@ -133,11 +133,11 @@
 <h3>2. Какие данные использует приложение и где они хранятся</h3>
 <table>
 <tr><th>Данные</th><th>Зачем</th><th>Где хранятся</th></tr>
-<tr><td>Прогресс: какие столы вы решили</td><td>Открытие следующего стола</td><td>Только на устройстве</td></tr>
-<tr><td>Настройки: язык, музыка, звук, вибрация</td><td>Ваши предпочтения</td><td>Только на устройстве</td></tr>
+<tr><td>Прогресс: какие столы вы решили</td><td>Открытие следующего стола</td><td>На устройстве и в резервной копии телефона, если она включена</td></tr>
+<tr><td>Настройки: язык, музыка, звук, вибрация</td><td>Ваши предпочтения</td><td>На устройстве и в резервной копии телефона, если она включена</td></tr>
 <tr><td>Имена, которые вы вводите для своего стола, и кто с кем не ладит</td><td>Сборка стола, чтобы отправить его другу</td><td>В памяти приложения, пока вы собираете стол; не сохраняются. В ссылку попадают, только если вы её создадите и отправите (см. п. 3)</td></tr>
 <tr><td>Часовой пояс и страна из языковых настроек устройства</td><td>Выбор рекламной сети (см. п. 3)</td><td>Считываются на устройстве; игра никуда их не отправляет</td></tr>
-<tr><td>Счётчики рекламы: число сессий, время последнего запуска и последней рекламы, использованные за день бесплатные подсказки и продления</td><td>Ограничение частоты рекламы</td><td>Только на устройстве</td></tr>
+<tr><td>Счётчики рекламы: число сессий, время последнего запуска и последней рекламы, использованные за день бесплатные подсказки и продления</td><td>Ограничение частоты рекламы</td><td>На устройстве и в резервной копии телефона, если она включена</td></tr>
 <tr><td>Рекламный идентификатор (GAID / IDFA; на iOS только с вашего разрешения), IP-адрес, примерное местоположение по IP-адресу, модель устройства и версия системы, показы и нажатия на рекламу</td><td>Показ и учёт рекламы</td><td>Собирают напрямую Google AdMob или Реклама Яндекса (см. п. 3)</td></tr>
 </table>
 <p>Приложение не запрашивает и не собирает адрес электронной почты, номер телефона, контакты, фотографии, точную геолокацию и платёжные данные. Покупок в приложении нет.</p>
@@ -148,7 +148,7 @@
 <li><strong>Реклама Яндекса</strong> (Россия, Беларусь, Казахстан, Узбекистан, Киргизия, Таджикистан, Туркменистан, Армения, Азербайджан, Грузия, Молдова): показ рекламы. На iOS ваш ответ на запрос об отслеживании передаётся Яндексу как ваше решение о согласии. <a href="https://yandex.ru/legal/confidential/">Политика Яндекса</a>.</li>
 <li><strong>Приложение, через которое вы делитесь, и хостинг сайта.</strong> Ссылка на стол проходит через выбранное вами приложение, например мессенджер, на его условиях. Если ссылку откроют в браузере, часть адреса со столом и именами останется в браузере и не будет отправлена хостингу сайта, GitHub Pages. Хостинг получит только запрос страницы, как на любом сайте, включая IP-адрес посетителя.</li>
 </ul>
-<p>В приложение встроены обе рекламные библиотеки. Рекламу запрашивают только у сети, выбранной для вашего региона, но вторая библиотека всё равно может запускаться вместе с приложением и обращаться к своим серверам. Мы не продаём персональные данные и не передаём их другим третьим лицам. Рекламные данные могут обрабатываться на серверах за пределами вашей страны (в том числе в США, ЕС и России) по правилам указанных выше компаний.</p>
+<p>В приложение встроены обе рекламные библиотеки. Рекламу запрашивают только у сети, выбранной для вашего региона, но вторая библиотека всё равно может запускаться вместе с приложением и обращаться к своим серверам. Рекламная библиотека Яндекса включает AppMetrica, библиотеку аналитики и отчётов о сбоях Яндекса: она может передавать Яндексу сведения об устройстве и приложении, данные о производительности и отчёты о сбоях этой библиотеки по правилам политики Яндекса. Сама игра ей ничего не передаёт. Мы не продаём персональные данные и не передаём их другим третьим лицам. Рекламные данные могут обрабатываться на серверах за пределами вашей страны (в том числе в США, ЕС и России) по правилам указанных выше компаний.</p>
 
 <h3>4. Реклама в игре</h3>
 <p>В первые 3 сессии рекламы нет. Потом во время игры под столом показывается баннер. На подсказки дано 3 бесплатных использования в день, и столько же на дополнительные шаги или время. После этого видеореклама запускается только по нажатию на кнопку. Если рекламы нет, подсказку или шаги вы получите всё равно. Полноэкранная реклама сама по себе не появляется. «Отменить», «Заново» и выход всегда бесплатны, покупать в игре нечего.</p>
@@ -164,7 +164,7 @@
 </ul>
 
 <h3>6. Сроки хранения и удаление</h3>
-<p>Данные на устройстве хранятся, пока вы их не удалите. <em>Настройки → Сбросить прогресс</em> очищает решённые столы, отменить это нельзя. При удалении приложения стирается всё, что оно сохранило. На серверах мы ничего не храним, поэтому удалять с нашей стороны нечего. Уже отправленная ссылка остаётся у тех, кто её получил, отозвать её мы не можем. Рекламные данные хранятся по правилам рекламных сетей.</p>
+<p>Данные на устройстве хранятся, пока вы их не удалите. <em>Настройки → Сбросить прогресс</em> очищает решённые столы, отменить это нельзя. При удалении приложения с устройства стирается всё, что оно сохранило. Если на телефоне включено резервное копирование (Google на Android; iCloud или компьютер на iOS), в копии могут остаться прогресс, настройки и счётчики рекламы, и они восстановятся на новом телефоне; управлять этой копией и удалить её можно в настройках резервного копирования телефона. На серверах мы ничего не храним, поэтому удалять с нашей стороны нечего. Уже отправленная ссылка остаётся у тех, кто её получил, отозвать её мы не можем. Рекламные данные хранятся по правилам рекламных сетей.</p>
 
 <h3>7. Безопасность</h3>
 <p>Ссылки на столы закодированы, но не зашифрованы: любой, у кого есть ссылка, может прочитать имена в ней, поэтому отправляйте её только тем, кому готовы их показать. Игра проверяет каждую открываемую ссылку и отказывается открывать повреждённую.</p>
